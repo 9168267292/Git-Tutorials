@@ -1,0 +1,25 @@
+<html>
+  <body  bgcolor="skyblue">
+  <h1 align="center"><font face="Lucida Calligraphy" color="black">Employees Data</font></h1>
+  <br>
+  <br>
+  <br>
+  
+    <form action="/ user/" method="POST">
+      <center>
+      
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+
+        {% csrf_token %}
+        {{form2.as_p}}
+  
+    
+    <button type="button" class="btn btn-secondary btn-lg">save</button> 
+  
+    </form>
+  
+    
+     </center>
+  </body>
+</html>
